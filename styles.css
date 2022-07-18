@@ -8,6 +8,7 @@ img {
 }
  h1 {
     text-align: center;
+    margin-top: 5vh;
  }
 a {
     font-size: 2rem;
@@ -24,6 +25,7 @@ a {
     max-width: 960px;
     margin: auto;
     padding: auto;
+    min-height: 75vh !important;
 }
 
 label::first-letter{
@@ -50,8 +52,7 @@ iframe {
 }
 .footer {
     margin-top: 5vh;
-    position: sticky;
-    bottom: 0;
+    position: relative;
     width: 100%;
     min-height: 50px; /* Set the fixed height of the footer here */
     /*line-height: 50px; /* Vertically center the text there */
@@ -66,6 +67,6 @@ iframe {
 .btn-lg {
     min-width: 25% !important;
 }
-.accordionExample {
+.accordionExample{
     position: relative;
 }
